@@ -1,0 +1,18 @@
+{
+    "name": "xml-signer-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "keywords": [],
+    "author": "Vikas Sawant",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "xml-crypto": "^2.0.0",
+        "xml-js": "^1.6.11"
+    }
+}
