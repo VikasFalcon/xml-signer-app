@@ -12,7 +12,7 @@ app.post('/sign-xml', (req, res) => {
     const { xmlData, apiName, signatureLocation, certificate } = req.body;
     try {
         const signedXml = xmlSigner(xmlData, apiName, signatureLocation, certificate);
-        res.join({ signedXml });
+        res.json({ signedXml });
     } catch (error) {
         res.status(500).json({error: error.message});
     }
