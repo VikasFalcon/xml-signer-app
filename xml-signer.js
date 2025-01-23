@@ -15,6 +15,7 @@ function xmlSigner(xml, api, signatureLocation, signingKey) {
 
     } catch (error) {
         console.error(error)
+        return error
     }
 }
 
