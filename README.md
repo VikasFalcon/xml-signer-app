@@ -11,7 +11,7 @@ Sign your xml payload using this app
 #### Pull Docker image & Run apllication
 
 ```
-  docker run -d --name xml-signer-app -p 4500:3000 
+  docker run -d --name xml-signer-app -p 4500:3000 vikasfalcon/xml-signer-app:1.0.0
 ```
 
 | Form Fields | Type     | Description                |
